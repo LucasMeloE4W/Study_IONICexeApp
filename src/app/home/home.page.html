@@ -1,20 +1,195 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Teste App
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<!-- EXEMPLOS DE CRIAÇÃO DE LINHAS E COLUNAS
+<h4>Grids</h4>
+<ion-grid>
+  <ion-row>
+    <ion-col size="3">Conteúdo 1</ion-col>
+  </ion-row>
+</ion-grid>
+
+<h4>Grids Offset</h4>
+<ion-grid>
+  <ion-row>
+    <ion-col size="6">Conteúdo 1</ion-col>
+    <ion-col size="3" offset="3">Conteudo 2</ion-col>
+  </ion-row>
+</ion-grid>
+
+<h4>Grids Alinhamento de Textos(ion-text-start, ion-text-center, ion-text-end)</h4>
+<ion-grid>
+  <ion-row class="ion-text-end">
+    <ion-col size="4">Conteudo 1</ion-col>
+    <ion-col size="4">Conteudo 2</ion-col>
+    <ion-col size="4">Conteudo 3</ion-col>
+  </ion-row>
+</ion-grid>
+
+<h4>Grids Alinhamento de Vertical</h4>
+<ion-grid>
+  <ion-row" class="ion-align-items-center">
+    <ion-col size="4" class="ion-text-end>Conteudo 1</ion-col>
+    <ion-col size="4" class="ion-text-start>Conteudo 2</ion-col>
+    <ion-col size="4" class="ion-text-center>Conteudo 3</ion-col>
+  </ion-row>
+</ion-grid>
+-->
+<!-- #----------------------------------------# -->
+
+<!-- EXEMPLOS DE ENTRADA DE DADOS
+<h4>Tipos de Entrada(Text, Number, Password, Email, Tel, url, Search)</h4>
+<ion-item>
+  <ion-label>Usuário:</ion-label>
+  <ion-input type="text"></ion-input>
+  <ion-label>Senha:</ion-label>
+  <ion-input type="password"></ion-input>
+</ion-item>
+-->
+
+<!-- #----------------------------------------# -->
+
+<!-- EXEMPLOS DE ENTRADAS DE DADOS
+<h4>Configurando Entrada de Dados(Floating, Fixed, Stacked)</h4>
+<ion-item>
+  <ion-label position="floating">Nome:</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+<h4>Configurando Entrada de Dados(Placeholder, Value, Clearinput)</h4>
+<ion-item>
+  <ion-input value="Valor de Teste">Valor de Teste</ion-input>
+  <ion-input placeholder="Seu nome"></ion-input>
+  <ion-input clearInput></ion-input>
+</ion-item>
+-->
+
+<!-- #------------------------------------------# -->
+
+<!-- EXEMPLO LISTA COM SLIDE
+<h4>Listas Slide</h4>
+<ion-list>
+  <ion-item-sliding>
+    <ion-item>
+      <ion-label>Jamilton Damasceno</ion-label>
+    </ion-item>
+    <ion-item-options side="end">
+      <ion-item-option color="success">Alterar</ion-item-option>
+      <ion-item-option color="danger">Excluir</ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+</ion-list>
+-->
+
+<!-- #------------------------------------------# -->
+
+<!-- EXEMPLO LISTA COM AVATAR
+<h4>Listas Avatar</h4>
+<ion-list>
+  <ion-avatar slot="start">
+      <ion-img src="https://source.unsplash.com/random/200x200"></ion-img>
+  </ion-avatar>
+  <ion-label>Pedro Guina</ion-label>
+</ion-list>
+-->
+
+<!-- #------------------------------------------# -->
+
+<!-- EXEMPLOS DE LISTAS
+<h4>Listas</h4>
+<ion-list>
+  <ion-item>
+    <ion-label>1) Item Um</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>2) Item Dois</ion-label>
+  </ion-item>
+</ion-list>
+-->
+
+<!-- #------------------------------------------# -->
+
+<!-- EXEMPLOS DE CARTÕES
+<h4>Cartões</h4>
+<ion-card color="primary" mode="ios">
+  <ion-img src="https://source.unsplash.com/random/800x600"></ion-img>
+  <ion-card-content>
+    <ion-card-title>
+      Lorem Ipsum Dolorem Sit Amet
+    </ion-card-title>
+    <p>Lorem ipsum dolor sit amet, consectetu adipisciping elit. Curabitur eu mauris, Vivamus magna enim.</p>
+  </ion-card-content>
+</ion-card>
+<ion-card color="primary" mode="md">
+  <ion-img src="https://source.unsplash.com/random/800x600"></ion-img>
+  <ion-card-content>
+    <ion-card-title>
+      Lorem Ipsum Dolorem Sit Amet
+    </ion-card-title>
+    <p>Lorem ipsum dolor sit amet, consectetu adipisciping elit. Curabitur eu mauris, Vivamus magna enim.</p>
+  </ion-card-content>
+</ion-card>
+
+<h4>Cartões Com Itens</h4>
+<ion-card>
+  <ion-item>
+    <ion-label>1) Item Um</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>2) Item Dois</ion-label>
+  </ion-item>
+</ion-card>
+-->
+
+<!-- #------------------------------------------# -->
+
+<!-- EXEMPLOS DE BOTÕES   
+  <h4>Botões</h4>
+  <ion-button>Padrão</ion-button>
+  <ion-button href="https://google.com.br">Link</ion-button>
+
+  <h4>Cores</h4>
+  <ion-button color="primary">Primary</ion-button>
+  <ion-button color="secondary">Secondary</ion-button>
+  <ion-button color="tertiary">tertiary</ion-button>
+  <ion-button color="success">Success</ion-button>
+  <ion-button color="warning">Warning</ion-button>
+  <ion-button color="danger">Danger</ion-button>
+  <ion-button color="light">Light</ion-button>
+  <ion-button color="medium">Medium</ion-button>
+  <ion-button color="dark">Dark</ion-button>
+
+  <h4>Expandido</h4>
+  <ion-button expand="full">Full</ion-button>
+  <ion-button expand="block">Block</ion-button>
+
+  <h4>Arredondado</h4>
+  <ion-button shape="round">Arredondado</ion-button>
+
+  <h4>Preenchimento</h4>
+  <ion-button fill="outline">Preenchimento</ion-button>
+
+  <h4>Icones</h4>
+  <ion-button>
+    <ion-icon slot="start" name="star"></ion-icon>
+    Icone
+  </ion-button>
+  <ion-button>
+    <ion-icon slot="end" name="star"></ion-icon>
+    Icone
+  </ion-button>
+  <ion-button>
+    <ion-icon name="arrow-back-outline"></ion-icon>
+  </ion-button>
+-->
+
+<!-- #----------------------------------------# -->
+  
 </ion-content>
