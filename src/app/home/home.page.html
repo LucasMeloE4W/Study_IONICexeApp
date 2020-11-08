@@ -8,6 +8,43 @@
 
 <ion-content [fullscreen]="true" class="ion-padding">
 
+<!-- EXEMPLO DE PESQUISA -->
+<ion-iteml>
+  <ion-label position="stacked">Pesquisar:</ion-label>
+  <ion-input [(ngModel)]="pesquisa" type="text"></ion-input>
+</ion-iteml>
+
+<ion-button (click)="recuperar()" expand="full"></ion-button>
+</br>
+{{ resultado }}
+
+<!-- EXEMPLO DE NAVEGAÇÃO-->
+<h1>Navegação:</h1>
+<ion-button [href]="'/botoes/'" routerDirection="forward" expand="full">Botões</ion-button>
+
+<ion-button (click)="abrirBotoes()" expand="full">Listas</ion-button>
+
+<!-- #----------------------------------------# -->
+
+<!-- EXEMPLO DE DATA BINDING
+<h4>Data Binding (Ligação de Dados)</h4>
+<ion-item>
+  <ion-label position="stacked">Nome:</ion-label>
+  <ion-input (input)="atualizaDados()"></ion-input>
+</ion-item>
+
+<ion-button (click)="acao()"></ion-button>
+
+<h4>Data Binding (Property Binding / Ligação de dados)</h4>
+<ion-img [src]="imgVariavel"></ion-img>
+
+<h4>Data Binding (Interpolation)</h4>
+{{ tituloVariavel }}
+<ion-img src="{{ imgVariavel }}"></ion-img>
+-->
+
+<!-- #----------------------------------------# -->
+
 <!-- EXEMPLOS DE CRIAÇÃO DE LINHAS E COLUNAS
 <h4>Grids</h4>
 <ion-grid>
